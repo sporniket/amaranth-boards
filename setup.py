@@ -22,7 +22,7 @@ setup(
     python_requires="~=3.7",
     setup_requires=["wheel", "setuptools", "setuptools_scm"],
     install_requires=[
-        "amaranth @ https://github.com/amaranth-lang/amaranth.git", #"amaranth>=0.2,<0.5",
+        "amaranth @ https://github.com/amaranth-lang/amaranth/archive/refs/heads/main.zip", #"amaranth>=0.2,<0.5",
         "importlib_metadata; python_version<'3.8'",
     ],
     packages=find_packages(),
